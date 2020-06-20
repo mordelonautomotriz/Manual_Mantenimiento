@@ -56,9 +56,7 @@ class Manual_Mantenimiento{
     
     @Override
     public String toString(){
-        return "El Manual de mantenimiento "+servicio+" con CODIGO: "+codigo+" --" 
-                +"Inspeccionar por el Supervisor de "+mantenimiento
-                +" tiene registrados: "+numMantenimiento+" mantenimientos";
+        return "El Manual de mantenimiento "+servicio+"";
     }
     
 }
